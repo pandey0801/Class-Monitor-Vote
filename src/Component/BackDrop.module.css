@@ -1,0 +1,42 @@
+.back{
+    /* background-color: brown; */
+
+    position: fixed;
+    /* display: 'flex'; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* z-index: 10; */
+    background: rgba(0, 0, 0, 0.75);
+}
+
+
+.modal{
+    /* background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 50px  50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+     background-color: white; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 11;  
+     boxShadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+
+
+    position: fixed;
+    top: 20vh;
+    left: 5%;
+    width: 90%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 3;
+    animation: slide-down 300ms ease-out forwards;
+    transition: 2s;
+
+}
+
